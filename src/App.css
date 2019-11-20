@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Gotham;
+  src: url(GothaProReg.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(GothaProBol.otf);
+  font-weight: bold;
+}
+
+.App {
+  background-color: #F4F8FA;
+  font-family: Gotham, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App-logo {
+  margin: 40px 100px;
+}
+
+.App-header {
+  background-image: linear-gradient(to bottom right, #0069FF, #0249C4);
+  min-height: 450px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+main {
+  max-width: 1100px;
+  margin: -280px auto 0;
+}
+
+.Welcome-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.Card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 42px 60px 0 rgba(30,30,30,.1);
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.Card-content {
+  padding: 26px 48px 48px;
+  color: #161F32;
+  max-width: 41%;
+}
+
+.Card-heading {
+  font-size: 2em;
+}
+
+.Card-secondary-heading {
+  font-size: 1.5em;
+}
+
+.Card-sentence {
+  line-height: 1.5em;
+}
+
+.Secondary-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Secondary-card {
+  width: 48%;
+}
+
+.Button {
+  border: none;
+  font-size: 1em;
+  line-height: 3em;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.Primary {
+  background-image: linear-gradient(to bottom right, #FEC54B, #FEA503);
+  border-radius: 10px;
+  box-shadow: 0 16px 39px 0 rgba(0,0,0,.2);
+  padding: 0 3em;
+}
+
+.Secondary {
+  background-image: linear-gradient(to bottom right, #0069FF, #0249C4);
+  border-radius: 10px;
+  box-shadow: 0 16px 39px 0 rgba(6,63,159,.2);
+  padding: 0 3em;
+  color: #fff;
+}
+
+.Tertiary {
+  background: none;
+  color: #fff;
+  margin-left: 2em;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Primary:hover {
+  box-shadow: 0 16px 39px 0 rgba(0,0,0,.35);
+}
+
+.Secondary:hover {
+  opacity: .95;
+  box-shadow: 0 16px 50px 0 rgba(6,63,159,.3);
+  margin-top: -1px;
+}
+
+/* Pricing Page */
+
+.Pricing-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pricing-card {
+  width: 31%;
+}
+
+.Tier-label {
+  color: #909EAE;
+}
+
+.Card-heading-span {
+  font-size: .66em;
+}
